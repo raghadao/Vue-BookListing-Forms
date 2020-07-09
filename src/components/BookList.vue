@@ -60,7 +60,7 @@ export default {
   },
   computed:{
    filteredBooks() {
-     return _.filter(this.book, ["ownership", th\.holding])
+     return _.filter(this.book, ["ownership", this.holding])
    }
   },
   methods: {
